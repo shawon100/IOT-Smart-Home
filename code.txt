@@ -1,0 +1,12 @@
+var val= {payload:msg.payload};
+
+if(msg.payload==1)
+{
+    val.payload="Light is On";
+    return val;
+}
+else
+{
+    val.payload="Light is Off";
+    return val;
+}
